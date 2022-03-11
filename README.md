@@ -12,4 +12,4 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 ```shell
 cd /
 ```
-Run a server Java. Navigate to `http://localhost:8080/`. 
+Run a server Java. Navigate to `http://localhost:8080/`.
