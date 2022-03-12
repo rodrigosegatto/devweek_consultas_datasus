@@ -1,7 +1,49 @@
 <div class="margem">
   <mat-card>
     <mat-card-subtitle>
-      Consulta de Exames de Mamografia - Relação de Regiões
+      Exames de mamografia entre Junho e Julho de 2015
+    </mat-card-subtitle>
+    <table matSort (matSortChange)="regioes">
+      <tr>
+        <th mat-sort-header="id">Id</th>
+        <th mat-sort-header="regiao">Região</th>
+        <th mat-sort-header="total_exames">Total Exames</th>
+      </tr>
+
+      <tr *ngFor="let element of regioes">
+        <td>{{element.id}}</td>
+        <td>{{element.regiao}}</td>
+        <td>{{element.total_exames}}</td>
+      </tr>
+    </table>
+  </mat-card>
+</div>
+
+<div class="margem">
+  <mat-card>
+    <mat-card-subtitle>
+      Relação de Regiões Brasileiras
+    </mat-card-subtitle>
+    <table matSort (matSortChange)="regioes">
+      <tr>
+        <th mat-sort-header="id">Id</th>
+        <th mat-sort-header="regiao">Região</th>
+        <th mat-sort-header="total_exames">Total Exames</th>
+      </tr>
+
+      <tr *ngFor="let element of regioes">
+        <td>{{element.id}}</td>
+        <td>{{element.regiao}}</td>
+        <td>{{element.total_exames}}</td>
+      </tr>
+    </table>
+  </mat-card>
+</div>
+
+<div class="margem">
+  <mat-card>
+    <mat-card-subtitle>
+      Faixa Etaria das Mulheres que Realizram Exames
     </mat-card-subtitle>
     <table matSort (matSortChange)="regioes">
       <tr>

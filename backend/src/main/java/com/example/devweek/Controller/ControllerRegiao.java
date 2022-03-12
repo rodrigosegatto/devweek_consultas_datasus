@@ -4,15 +4,14 @@ import com.example.devweek.Entity.Regiao;
 import com.example.devweek.Repo.RegiaoRepo;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Optional;
 
 @RestController
+@CrossOrigin //Não consegui configurar o proxy no Angular então está liberando acesso aqui para todas as origens
+@RequestMapping("/api")
 public class ControllerRegiao {
     private final RegiaoRepo repository;
 

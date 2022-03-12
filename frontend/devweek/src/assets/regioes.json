@@ -1,0 +1,15 @@
+[{
+  "id": 1,
+  "regiao": "Norte",
+  "total_exames": 1012
+},
+{
+  "id": 2,
+  "regiao": "Sul",
+  "total_exames": 200
+},
+{
+  "id": 3,
+  "regiao": "Sudeste",
+  "total_exames": 300
+}]

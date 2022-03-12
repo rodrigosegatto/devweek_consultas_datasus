@@ -1,0 +1,26 @@
+[
+  {
+    "id":1,
+    "faixa_i": 0,
+    "faixa_n": 20,
+    "descricao": "Até 20 anos"
+  },
+  {
+    "id":2,
+    "faixa_i": 21,
+    "faixa_n": 50,
+    "descricao": "De 21 a 50 anos"
+  },
+  {
+    "id":3,
+    "faixa_i": 51,
+    "faixa_n": 70,
+    "descricao": "De 51 a 70 anos"
+  },
+  {
+    "id":4,
+    "faixa_i": 71,
+    "faixa_n": 100,
+    "descricao": "Maior de 70 anos"
+  }
+]

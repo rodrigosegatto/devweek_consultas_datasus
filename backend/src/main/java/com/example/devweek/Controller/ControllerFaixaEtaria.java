@@ -10,6 +10,8 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
+@CrossOrigin //Não consegui configurar o proxy no Angular então está liberando acesso aqui para todas as origens
+@RequestMapping("/api")
 public class ControllerFaixaEtaria {
     private final FaixaEtariaRepo repository;
 
