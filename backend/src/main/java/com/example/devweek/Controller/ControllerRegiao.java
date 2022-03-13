@@ -34,12 +34,12 @@ public class ControllerRegiao {
         return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
 
-    @GetMapping("/regiao/novo")
-    public Regiao putRegiao(@RequestBody Regiao newRegiao){
+    @PostMapping("/regiao/novo")
+    public Regiao postRegiao(@RequestBody Regiao newRegiao){
         return repository.save(newRegiao);
     }
 
-    @GetMapping("/regiao/delete/{id}")
+    @DeleteMapping("/regiao/delete/{id}")
     public void  deleteRegiao(@PathVariable Long id){
         repository.deleteById(id);
     }
